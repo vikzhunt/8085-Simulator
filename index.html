@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button id="aboutButton" class="about-button">About</button>
+<div id="aboutModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Key Mapping:</p>
+        <ul>
+            <li><strong>0-9:</strong> Corresponding number buttons</li>
+            <li><strong>A-F:</strong> Corresponding letter buttons</li>
+            <li><strong>Enter:</strong> EXE</li>
+            <li><strong>R:</strong> RESET</li>
+            <li><strong>G:</strong> GO</li>
+            <li><strong>N:</strong> NEXT</li>
+            <li><strong>X:</strong> REL EXM</li>
+        </ul>
+    </div>
+</div>
+    <div class="main">
+        <div class="flag">
+            <p>S</p><div id="sign"><p id="sign"></p></div>
+            <p>Z</p><div id="zero"><p id="zero"></p></div>
+            <p>A</p><div id="auxiliary"><p id="auxiliary"></p></div>
+            <p>P</p><div id="parity"><p id="parity"></p></div>
+            <p>C</p><div id="carry"><p id="carry"></p></div>
+        </div>
+
+        <div class="registers">
+            <div id="another">
+                <span><p>A:</p><div><p id="AR"></p></div></span>
+                <span><p>B:</p><div><p id="BR"></p></div><p>C:</p><div><p id="CR"></p></div></span>
+                <span><p>D:</p><div><p id="DR"></p></div><p>E:</p><div><p id="ER"></p></div></span>
+                <span><p>H:</p><div><p id="HR"></p></div><p>L:</p><div><p id="LR"></p></div></span>
+            </div>
+            <div class="store">
+            </div>
+        </div>
+        <div class="screen">
+            <div class="left">
+                <p id="left"></p>
+            </div>
+            <div class="right">
+                <p id="right"></p>
+            </div>
+        </div>
+
+        <div class="keys">
+            <div class="left">
+                <span>
+                    <button class="leftk" id="relx">REL EXM</button>
+                    <button class="leftk" id="EXE">EXE</button>
+                </span>
+                <span>
+                    <button class="leftk" id="RESET">RESET</button>
+                    <button class="leftk" id="FILL">FILL</button>
+                </span>
+                <span>
+                    <button class="leftk" id="GO">GO</button>
+                    <button class="leftk" id="NEXT">NEXT</button>
+                </span>
+            </div>
+            <div class="right">
+                <span>
+                    <button class="rightk" id="C">C</button>
+                    <button class="rightk" id="D">D</button>
+                    <button class="rightk" id="E">E</button>
+                    <button class="rightk" id="F">F</button>
+                </span>
+                <span>
+                    <button class="rightk" id="8">8</button>
+                    <button class="rightk" id="9">9</button>
+                    <button class="rightk" id="A">A</button>
+                    <button class="rightk" id="B">B</button>
+                </span>
+                <span>
+                    <button class="rightk" id="4">4</button>
+                    <button class="rightk" id="5">5</button>
+                    <button class="rightk" id="6">6</button>
+                    <button class="rightk" id="7">7</button>
+                </span>
+                <span>
+                    <button class="rightk" id="0">0</button>
+                    <button class="rightk" id="1">1</button>
+                    <button class="rightk" id="2">2</button>
+                    <button class="rightk" id="3">3</button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
