@@ -203,23 +203,23 @@ body{
     margin-bottom: 10px;
 }
 
-.keys .right span {
+.keys .left span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.keys .right span button {
+.keys .left span button {
     flex-basis: calc(25% - 5px);
     margin-bottom: 10px;
 }
 
-.keys .left span {
+.keys .right span {
     display: flex;
     justify-content: end;
 }
 
-.keys .left span button {
+.keys .right span button {
     flex-basis: calc(25% - 5px);
     height: 50px;
     background-color: #3c3c3c;
